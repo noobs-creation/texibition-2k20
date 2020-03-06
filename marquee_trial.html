@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+	
+<body>
+	<style style="text/css">
+		.marquee{
+			height: 50px;
+			overflow: hidden;
+			position: relative;
+			background: #fefefe;
+			color: #333333;
+			border: 1px solid #4a4a4a
+		}
+		.marquee p {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			line-height: 50px;
+			text-align: center;
+			-moz-transform: translateX(100%);
+			-webkit-transform: translateX(100%);
+			transform: translateX(100%);
+			-moz-aniamtion: scroll-left 20s linear infinte;
+			-webkit-animation: scroll-left 20s linear infinte;
+			animation: scroll-left 20s linear infinte;
+		}
+		@-moz-keyframes scroll-left{
+			0%{
+				-moz-transform: translateX(100%);
+				
+			}
+			100%{
+				-moz-transform: translateX(-100%);
+				
+		}
+		}
+		@-webkit-keyframes scroll-left{
+			0%{
+				-webkit-transform: translateX(100%);
+				
+			}
+			100%{
+				-webkit-transform: translateX(-100%);
+			}
+		}
+		@keyframes scroll-left{
+			0%{
+				-moz-transform: translateX(100%);
+				-webkit-transform: translateX(100%);
+				transform: translateX(100%);
+			}
+			100%{
+				-moz-transform: translateX(-100%);
+				-webkit-transform: translateX(-100%);
+				transform: translateX(-100%);
+			}
+		}
+	</style>
+	
+	<div class="marquee">
+		<p>
+			Marquee in hello world
+		</p>
+	</div>
+</body>
+</html>
