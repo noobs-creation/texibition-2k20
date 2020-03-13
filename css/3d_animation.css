@@ -80,37 +80,7 @@
 .content-carrousel figure:nth-child(10){
 	transform: rotateY(324deg) translateZ(300px);
 }
-/*.content-carrousel figure:nth-child(11){
-	transform: rotateY(180deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(12){
-	transform: rotateY(198deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(13){
-	transform: rotateY(216deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(14){
-	transform: rotateY(234deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(15){
-	transform: rotateY(252deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(16){
-	transform: rotateY(270deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(17){
-	transform: rotateY(288deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(18){
-	transform: rotateY(306deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(19){
-	transform: rotateY(324deg) translateZ(300px);
-}
-.content-carrousel figure:nth-child(20){
-	transform: rotateY(342deg) translateZ(300px);
-}
-*/
+
 
 .shadow{
 	position: absolute;
